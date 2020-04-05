@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "postcss css/tailwind.css -o public/css/style.css"
+    "start": "live-server",
+    "build": "postcss css/tailwind.css -o public/css/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.7.4",
+    "live-server": "^1.2.1",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   }

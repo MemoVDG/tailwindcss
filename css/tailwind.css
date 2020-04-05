@@ -1,5 +1,9 @@
+/* Directivas de tailwind que insertan codigo en el archivo de css fina */
+
+/* INicializar los elementos html para que no tengan estilos */
 @tailwind base;
 
 @tailwind components;
 
+/* Genera el codigo de utilierias */
 @tailwind utilities;
