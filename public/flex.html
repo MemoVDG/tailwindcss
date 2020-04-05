@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="css/style.css">
+</head>
+
+<body class="m-8">
+    <!-- flex-direction, puede ser row y col ayuda a acomodar objetos de forma horizontal o vertizal -->
+    <!-- align items alinea los elementos en el sentido que deseemos -->
+    <!-- justify content los justifica -->
+    <!-- order los ordena -->
+    <h1>Flex Col</h1>
+    <div class="flex flex-col bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+    <h1>Flex Row</h1>
+    <div class="flex flex-row bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+    <!-- justify start es el default aliniados a la izquiera
+    justify-end los mando a todos a la derecha
+    justify between toma el mismo espacio entre los elementos pero empezando por los extremos
+    justify around, el mismo espacio al rededor de los elementos y entre cada elemento
+-->
+
+    <h1>justify end</h1>
+    <div class="flex justify-end bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+
+    <h1>justify between</h1>
+    <div class="flex justify-between bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+    
+    <h1>justify around</h1>
+    <div class="flex justify-around bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+
+    <h1>Alineado en el centro</h1>
+    <div class="h-64 flex flex-row items-center justify-around bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+
+    <h1>Alineado expandidos</h1>
+    <div class="h-64 flex flex-row items-stretch justify-around bg-gray-800 p-8 mt-2">
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+
+    <h1>Alineado base line, es cuando se alinean a la base de un texto</h1>
+    <div class="h-64 flex flex-row items-baseline justify-around bg-gray-800 p-8 mt-2">
+        <h1 class="text-white">HOLA</h1>
+        <div class="bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+
+    <h1>Order, es util cuando se hace responsive design</h1>
+    <div class="h-64 flex flex-row items-baseline justify-around bg-gray-800 p-8 mt-2">
+        <h1 class="order-3 text-white">HOLA</h1>
+        <div class=" order-1 bg-gray-300 px-4 py-2 m-2">1</div>
+        <div class="order-4 bg-gray-300 px-4 py-2 m-2">2</div>
+        <div class="order-2 bg-gray-300 px-4 py-2 m-2">3</div>
+    </div>
+</body>
+
+</html>
