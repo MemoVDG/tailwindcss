@@ -1,3 +1,7 @@
+/* Directivas de tailwind que insertan codigo en el archivo de css fina */
+
+/* INicializar los elementos html para que no tengan estilos */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -622,6 +626,8 @@ video {
     max-width: 1280px;
   }
 }
+
+/* Genera el codigo de utilierias */
 
 .sr-only {
   position: absolute;
@@ -3703,6 +3709,14 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-display {
+  font-family: Gilroy, sans-serif;
+}
+
+.font-body {
+  font-family: Graphik, sans-serif;
 }
 
 .font-hairline {
@@ -13946,6 +13960,35 @@ video {
   transition-duration: 1000ms;
 }
 
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.zoom {
+  transform: scale(2);
+}
+
+.hover\:zoom:hover {
+  transform: scale(2);
+}
+
+sas
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -17027,6 +17070,14 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .sm\:font-body {
+    font-family: Graphik, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -30354,6 +30405,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .md\:font-body {
+    font-family: Graphik, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -43679,6 +43738,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .lg\:font-body {
+    font-family: Graphik, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -57002,6 +57069,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-display {
+    font-family: Gilroy, sans-serif;
+  }
+
+  .xl\:font-body {
+    font-family: Graphik, sans-serif;
   }
 
   .xl\:font-hairline {
