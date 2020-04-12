@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.zoom {
+    transform: scale(2);
+}
+
+.zoom-x2 {
+    transform: scale(5);
+}sss
+
+.rotate-h {
+    transform: rotate(170deg);
+}
+
+.rotate-8 {
+    transform: rotate(8deg);
+}
