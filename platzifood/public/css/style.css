@@ -14120,6 +14120,24 @@ sss
   transform: rotate(8deg);
 }
 
+h1 {
+  font-size: 1.875rem;
+  color: #c6f6d5;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #68d391;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2f855a;
+  font-weight: 600;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
