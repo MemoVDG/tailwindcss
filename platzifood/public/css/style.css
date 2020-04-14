@@ -3933,6 +3933,10 @@ video {
   height: 16rem;
 }
 
+.h-100 {
+  height: 20rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -17427,6 +17431,10 @@ sss
     height: 16rem;
   }
 
+  .sm\:h-100 {
+    height: 20rem;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -30902,6 +30910,10 @@ sss
 
   .md\:h-64 {
     height: 16rem;
+  }
+
+  .md\:h-100 {
+    height: 20rem;
   }
 
   .md\:h-auto {
@@ -44381,6 +44393,10 @@ sss
     height: 16rem;
   }
 
+  .lg\:h-100 {
+    height: 20rem;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -57856,6 +57872,10 @@ sss
 
   .xl\:h-64 {
     height: 16rem;
+  }
+
+  .xl\:h-100 {
+    height: 20rem;
   }
 
   .xl\:h-auto {
