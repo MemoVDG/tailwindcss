@@ -14138,6 +14138,53 @@ h3 {
   font-weight: 600;
 }
 
+.form-control {
+  width: 100%;
+  line-height: 1.375;
+  color: #2d3748;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #90cdf4;
+  background-color: #edf2f7;
+}
+
+.form-control:hover {
+  background-color: #fff;
+}
+
+.form-contro:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.btn {
+  color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #68d391;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.btn:hover {
+  box-shadow: none;
+  background-color: #f6ad55;
+  color: #fff
+}
+
+.btn-primary {
+  background-color: #d69e2e
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
